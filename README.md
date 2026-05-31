@@ -1,22 +1,36 @@
-Overview
+# 📒 Address Book Application
 
-Address Book is a C-based application that allows users to store and manage contact information efficiently. The application supports adding, searching, editing, deleting, and listing contacts through a menu-driven interface.
+## Overview
 
-Features
-Add new contacts
-Search contacts by name, phone number, or email
-Edit existing contact details
-Delete contacts
-Display all contacts
-Save contacts to a file
-Load contacts from a file
-Technologies Used
-C Programming
-File Handling
-Structures
-Dynamic Memory Management
-Modular Programming
-Project Structure
+The Address Book Application is a menu-driven project developed in C that enables users to efficiently manage contact information. The application allows users to add, search, edit, delete, and display contacts while maintaining data persistence through file storage.
+
+---
+
+## Features
+
+* ➕ Add new contacts
+* 🔍 Search contacts by Name, Phone Number, or Email
+* ✏️ Edit existing contact details
+* 🗑️ Delete contacts
+* 📋 Display all contacts
+* 💾 Save contacts to a file
+* 📂 Load contacts from a file
+
+---
+
+## Technologies Used
+
+* C Programming
+* Structures
+* File Handling
+* Dynamic Memory Management
+* Modular Programming
+
+---
+
+## Project Structure
+
+```text
 Address-Book/
 │
 ├── main.c
@@ -26,27 +40,70 @@ Address-Book/
 ├── file.h
 ├── README.md
 └── contacts.csv
-How to Compile
+```
+
+---
+
+## Compilation
+
+Compile the project using GCC:
+
+```bash
 gcc *.c -o addressbook
-How to Run
+```
+
+---
+
+## Execution
+
+### Linux / macOS
+
+```bash
 ./addressbook
+```
 
-For Windows:
+### Windows
 
+```bash
 addressbook.exe
-Sample Operations
-Add Contact
-Search Contact
-Edit Contact
-Delete Contact
-List Contacts
-Save and Exit
-Learning Outcomes
-Understanding of structures and file handling in C
-Implementation of modular programming concepts
-Data management using persistent storage
-Menu-driven application development
-Author
+```
 
-Prathibha Bharathi
-ECE Graduate | Embedded Systems & IoT Enthusiast
+---
+
+## Sample Operations
+
+1. Add Contact
+2. Search Contact
+3. Edit Contact
+4. Delete Contact
+5. Display Contacts
+6. Save Contacts
+7. Exit
+
+---
+
+## Learning Outcomes
+
+* Understanding structures and user-defined data types
+* Implementing file handling for persistent storage
+* Developing modular applications using multiple source files
+* Managing records efficiently through CRUD operations
+* Building menu-driven console applications in C
+
+---
+
+## Future Enhancements
+
+* Contact sorting functionality
+* Import/Export contacts using CSV files
+* Password-protected access
+* Duplicate contact detection
+* Backup and restore feature
+
+---
+
+## Author
+
+**Prathibha Bharathi**
+Electronics and Communication Engineering Graduate
+Embedded Systems & IoT Enthusiast
